@@ -1,0 +1,80 @@
+.mood-tracker {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.mood-tracker h2 {
+  color: var(--primary-dark);
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.mood-tracker form {
+  background: var(--card-bg);
+  padding: 2rem;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+  margin-bottom: 2rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.mood-tracker select {
+  padding: 0.5rem;
+  margin: 0 1rem;
+  border-radius: 4px;
+}
+
+.mood-chart {
+  background: var(--card-bg);
+  padding: 2rem;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+  margin-bottom: 2rem;
+}
+
+.mood-chart > div {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.bar {
+  background: var(--primary);
+  height: 20px;
+  margin-left: 1rem;
+  border-radius: 4px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 0.5rem;
+  min-width: 30px;
+}
+
+.mood-tracker ul {
+  list-style: none;
+  background: var(--card-bg);
+  padding: 1.5rem;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+}
+
+.mood-tracker li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.mood-tag {
+  padding: 0.2rem 0.5rem;
+  border-radius: 1rem;
+  font-size: 0.8rem;
+  margin-left: 0.5rem;
+}
+
+.mood-happy { background: #c8e6c9; color: #2e7d32; }
+.mood-sad { background: #bbdefb; color: #1565c0; }
+.mood-stressed { background: #ffccbc; color: #e64a19; }
+.mood-relaxed { background: #dce775; color: #827717; }
